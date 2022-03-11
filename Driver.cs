@@ -85,7 +85,7 @@ namespace Unit1Assignment
         the resulting procedure to the resulting arguments" - page 20
         
         Ultimately, the special form of if/cond allows sqrt-iter to be written, whereas the 
-        home made procedure of 'new-if' will never resolve to a value because one of the operators/operands are
+        home made procedure of 'new-if' will never resolve to a value because one of the operators/operands (else-clause) are
         calling srt-iter recursively and cannot be evaluated.
         */
         #endregion
